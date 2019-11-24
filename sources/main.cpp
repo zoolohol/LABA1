@@ -6,8 +6,7 @@
 using json = nlohmann::json;
 
 int main() {
-    std::ifstream in(
-"C:/Users/Анатолий/Desktop/laba1-master/laba1-master/file.json");
+    std::ifstream in("C:/универ/GITHUB/LABA1/file.json");
     json obj = json::parse(in);
     in.close();
     auto arr1 = obj[0];
