@@ -8,12 +8,10 @@ Json::Json(const string& s)
     {
         is_json_object = true;
         createmap(s);
-    }else if (s[i] == '[')
-    {
+    }else if (s[i] == '[')    {
         is_json_array = true;
         createmassive(s);
-    } else
-        {
+    } else        {
         throw std::logic_error("invalid data type");
     }
 }
@@ -31,8 +29,7 @@ std::any& Json::operator[](const string& key)
     if (Json::is_object())
     {
         return this->json_map[key];
-    } else
-        {
+    } else        {
         throw std::logic_error("It is not an object");
     }
 }
@@ -42,8 +39,7 @@ std::any& Json::operator[](int index)
     if (is_array())
     {
         return this->json_arr[index];
-    } else
-        {
+    } else        {
         throw std::logic_error("It is not an array");
     }
 }
@@ -108,8 +104,7 @@ string Json::cutword(unsigned int &i, const string& s)
     {
         i++;
         st = i;
-    } else
-    {
+    } else    {
         throw std::logic_error("string isn't valid!");
     }
     while (s[i] != '"') i++;
@@ -143,8 +138,7 @@ void Json::createmassive(const string& s)
             Json obj(s1);
             this->json_arr.emplace_back(obj.json_map);
             i += s1.length();
-        } else if (s[i] == '\"')
-        {
+        } else if (s[i] == '\"')        {
             string word;
             word = cutword(i, s);
             i = propyskprobel(i, s);
@@ -157,14 +151,12 @@ void Json::createmassive(const string& s)
             {
                 i += 4;
                 x = true;
-            } else
-                {
+            } else           {
                 i += 5;
                 x = false;
             }
             this->json_arr.emplace_back(x);
-        } else if (s[i] == '[')
-        {
+        } else if (s[i] == '[')   {
             string s1;
             unsigned int n = findofend(i, s);
             if (n == s.length())
@@ -183,8 +175,7 @@ void Json::createmassive(const string& s)
             {
                 int n = static_cast<int>(d);
                 this->json_arr.emplace_back(n);
-            } else
-                {
+            } else       {
                 this->json_arr.emplace_back(d);
             }
         }
@@ -214,8 +205,7 @@ void Json::createmap(const string& s)
             Json obj(s1);
             this->json_map[key] = obj.json_map;
             i += s1.length();
-        } else if (s[i] == '\"')
-        {
+        } else if (s[i] == '\"')    {
             string word;
             word = cutword(i, s);
             i = propyskprobel(i, s);
@@ -229,14 +219,12 @@ void Json::createmap(const string& s)
             {
                 i += 4;
                 x = true;
-            } else
-                {
+            } else    {
                 i += 5;
                 x = false;
             }
             this->json_map[key] = x;
-        } else if (s[i] == '[')
-        {
+        } else if (s[i] == '[')  {
             string s1;
             unsigned int  n = findofend(i, s);
             if ( n == s.length())
@@ -255,8 +243,7 @@ void Json::createmap(const string& s)
             {
                 int n = static_cast<int>(d);
                 this->json_map[key] = n;
-            } else
-                {
+            } else {
                 this->json_map[key] = d;
             }
         }
