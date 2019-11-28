@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Git/lab-01-parser/sources/main.cpp
+/cygdrive/c/универ/GITHUB/LABA1/sources/main.cpp
 iostream
 -
 fstream
@@ -14,7 +14,7 @@ fstream
 nlohmann/json.hpp
 -
 
-/home/zamot/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install/include/nlohmann/json.hpp
+/home/Анатолий/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install/include/nlohmann/json.hpp
 algorithm
 -
 cassert
