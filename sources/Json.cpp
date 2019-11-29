@@ -122,13 +122,6 @@ string Json::cutnumber(unsigned int i, const string& s)
     return num;
 }
 
-string Json::slovo(unsigned int i, const string& s)
-{
-    word = cutword(i, s);
-    if (std::tr1::regex rx("true") || std::tr1::regex rx("false"))  ;
-    regex_match(str.begin(), str.end(), rx)
-}
-
 void Json::createmassive(const string& s)
 {
     unsigned int i = 1;
@@ -150,7 +143,9 @@ void Json::createmassive(const string& s)
             word = cutword(i, s);
             i = propyskprobel(i, s);
             this->json_arr.emplace_back(word);
-        } else slovo(i, s) {
+        } else if ((s[i] == 't' && s[i + 1] == 'r' && s[i + 2] == 'u'
+        && s[i + 3] == 'e') || (s[i] == 'f' && s[i + 1] == 'a'
+        && s[i + 2] == 'l' && s[i + 3] == 's' && s[i + 4] == 'e')) {
             bool x;
             if (s[i] == 't')
             {

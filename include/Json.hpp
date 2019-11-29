@@ -9,7 +9,6 @@
 #include <map>
 #include <typeinfo>
 #include <fstream>
-#include <set>
 
 using std::cout;
 using std::cin;
@@ -39,6 +38,5 @@ public:
     static string cutword(unsigned int &i, const string& s);
     static unsigned int findofend(unsigned int i, const string& s);
     static string cutnumber(unsigned int i, const string& s);
-    static unsigned slovo (unsigned int i, const string& s);
 };
 #endif // INCLUDE_JSON_HPP_
