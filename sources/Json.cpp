@@ -143,15 +143,19 @@ void Json::createmassive(const string& s)
             word = cutword(i, s);
             i = propyskprobel(i, s);
             this->json_arr.emplace_back(word);
-        } else if (s.substr(i,4)=="true" || s.substr(i,5)=="false") {
-            if(s[i] == 't') {
+        } else if ((s[i] == 't' && s[i + 1] == 'r' && s[i + 2] == 'u'
+        && s[i + 3] == 'e') || (s[i] == 'f' && s[i + 1] == 'a'
+        && s[i + 2] == 'l' && s[i + 3] == 's' && s[i + 4] == 'e')) {
+            bool x;
+            if (s[i] == 't')
+            {
                 i += 4;
-                this->json_map[key] = true;
-            }
-            else {
+                x = true;
+            } else           {
                 i += 5;
-                this->json_map[key] = false;
+                x = false;
             }
+            this->json_arr.emplace_back(x);
         } else if (s[i] == '[')   {
             string s1;
             unsigned int n = findofend(i, s);
@@ -205,14 +209,19 @@ void Json::createmap(const string& s)
             word = cutword(i, s);
             i = propyskprobel(i, s);
             this->json_map[key] = word;
-        } else if (s.substr(i, 4) == "true" || s.substr(i, 5) == "false") {
-            if (s[i] == 't') {
+        } else if ((s[i] == 't' && s[i + 1] == 'r' && s[i + 2] == 'u'
+        && s[i + 3] == 'e') || (s[i] == 'f' && s[i + 1] == 'a'
+        && s[i + 2] == 'l' && s[i + 3] == 's' && s[i + 4] == 'e'))        {
+            bool x;
+            if (s[i] == 't')
+            {
                 i += 4;
-                this->json_arr.emplace_back(true);
-            } else {
+                x = true;
+            } else    {
                 i += 5;
-                this->json_arr.emplace_back(false);
+                x = false;
             }
+            this->json_map[key] = x;
         } else if (s[i] == '[')  {
             string s1;
             unsigned int  n = findofend(i, s);
