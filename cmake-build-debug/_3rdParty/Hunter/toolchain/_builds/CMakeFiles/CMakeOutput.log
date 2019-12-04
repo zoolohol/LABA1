@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/cygdrive/c/универ/GITHU
 Determining if the C compiler works passed with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_e1b9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e1b9e.dir/build.make CMakeFiles/cmTC_e1b9e.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_4aede/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4aede.dir/build.make CMakeFiles/cmTC_4aede.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e1b9e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e1b9e.dir/testCCompiler.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e1b9e.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e1b9e.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_e1b9e.dir/testCCompiler.c.o  -o cmTC_e1b9e.exe -Wl,--out-implib,libcmTC_e1b9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_4aede.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4aede.dir/testCCompiler.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4aede.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4aede.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_4aede.dir/testCCompiler.c.o  -o cmTC_4aede.exe -Wl,--out-implib,libcmTC_4aede.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_aa960/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa960.dir/build.make CMakeFiles/cmTC_aa960.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_211d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_211d3.dir/build.make CMakeFiles/cmTC_211d3.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13.1/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_aa960.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_aa960.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o  -o cmTC_aa960.exe -Wl,--out-implib,libcmTC_aa960.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_211d3.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_211d3.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o  -o cmTC_211d3.exe -Wl,--out-implib,libcmTC_211d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 7.4.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa960.exe' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc2m41yB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_aa960.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_aa960.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa960.exe' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_211d3.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccCNJzHB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_211d3.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_211d3.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_211d3.exe' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_aa960/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_aa960.dir/build.make CMakeFiles/cmTC_aa960.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_211d3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_211d3.dir/build.make CMakeFiles/cmTC_211d3.dir/build]
   ignore line: [make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13.1/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_aa960.exe]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_aa960.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o  -o cmTC_aa960.exe -Wl,--out-implib,libcmTC_aa960.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building C object CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_211d3.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_211d3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o  -o cmTC_211d3.exe -Wl,--out-implib,libcmTC_211d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa960.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc2m41yB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_aa960.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_aa960.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_211d3.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccCNJzHB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_211d3.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_211d3.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc2m41yB.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCNJzHB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_aa960.exe] ==> ignore
+    arg [cmTC_211d3.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0]
@@ -136,9 +136,9 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_aa960.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_211d3.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_aa960.dll.a] ==> ignore
+    arg [libcmTC_211d3.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -171,14 +171,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_ad08b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad08b.dir/build.make CMakeFiles/cmTC_ad08b.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_8d415/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d415.dir/build.make CMakeFiles/cmTC_8d415.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ad08b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ad08b.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ad08b.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ad08b.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_ad08b.dir/feature_tests.c.o  -o cmTC_ad08b.exe -Wl,--out-implib,libcmTC_ad08b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_8d415.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8d415.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d415.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8d415.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_8d415.dir/feature_tests.c.o  -o cmTC_8d415.exe -Wl,--out-implib,libcmTC_8d415.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -191,14 +191,14 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_46d14/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46d14.dir/build.make CMakeFiles/cmTC_46d14.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_0a1ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a1ba.dir/build.make CMakeFiles/cmTC_0a1ba.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46d14.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_46d14.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_46d14.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_46d14.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_46d14.dir/feature_tests.c.o  -o cmTC_46d14.exe -Wl,--out-implib,libcmTC_46d14.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_0a1ba.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0a1ba.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0a1ba.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0a1ba.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_0a1ba.dir/feature_tests.c.o  -o cmTC_0a1ba.exe -Wl,--out-implib,libcmTC_0a1ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -211,14 +211,14 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_77058/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77058.dir/build.make CMakeFiles/cmTC_77058.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_86091/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86091.dir/build.make CMakeFiles/cmTC_86091.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77058.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_77058.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77058.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_77058.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_77058.dir/feature_tests.c.o  -o cmTC_77058.exe -Wl,--out-implib,libcmTC_77058.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_86091.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_86091.dir/feature_tests.c.o   -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_86091.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_86091.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_86091.dir/feature_tests.c.o  -o cmTC_86091.exe -Wl,--out-implib,libcmTC_86091.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -229,28 +229,28 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_dd570/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dd570.dir/build.make CMakeFiles/cmTC_dd570.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_4fb5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fb5b.dir/build.make CMakeFiles/cmTC_4fb5b.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dd570.dir/testCXXCompiler.cxx.o
-/usr/bin/c++.exe     -o CMakeFiles/cmTC_dd570.dir/testCXXCompiler.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_dd570.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_dd570.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_dd570.dir/testCXXCompiler.cxx.o  -o cmTC_dd570.exe -Wl,--out-implib,libcmTC_dd570.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_4fb5b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_4fb5b.dir/testCXXCompiler.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4fb5b.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4fb5b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_4fb5b.dir/testCXXCompiler.cxx.o  -o cmTC_4fb5b.exe -Wl,--out-implib,libcmTC_4fb5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_8eae4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8eae4.dir/build.make CMakeFiles/cmTC_8eae4.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_46f8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46f8a.dir/build.make CMakeFiles/cmTC_46f8a.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++.exe     -o CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13.1/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8eae4.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8eae4.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8eae4.exe -Wl,--out-implib,libcmTC_8eae4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_46f8a.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_46f8a.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46f8a.exe -Wl,--out-implib,libcmTC_46f8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
@@ -260,9 +260,9 @@ Thread model: posix
 gcc version 7.4.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8eae4.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccHtKrGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8eae4.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8eae4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8eae4.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f8a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccqp1TYK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_46f8a.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_46f8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f8a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -270,14 +270,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_8eae4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8eae4.dir/build.make CMakeFiles/cmTC_8eae4.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_46f8a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_46f8a.dir/build.make CMakeFiles/cmTC_46f8a.dir/build]
   ignore line: [make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13.1/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8eae4.exe]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8eae4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8eae4.exe -Wl,--out-implib,libcmTC_8eae4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_46f8a.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_46f8a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46f8a.exe -Wl,--out-implib,libcmTC_46f8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe]
@@ -287,13 +287,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8eae4.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccHtKrGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8eae4.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8eae4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f8a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccqp1TYK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_46f8a.exe /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_46f8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHtKrGm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqp1TYK.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -326,7 +326,7 @@ Parsed CXX implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8eae4.exe] ==> ignore
+    arg [cmTC_46f8a.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0]
@@ -337,9 +337,9 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_8eae4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_46f8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_8eae4.dll.a] ==> ignore
+    arg [libcmTC_46f8a.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -373,14 +373,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_08a61/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08a61.dir/build.make CMakeFiles/cmTC_08a61.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_965f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_965f8.dir/build.make CMakeFiles/cmTC_965f8.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_08a61.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++1z -o CMakeFiles/cmTC_08a61.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_08a61.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_08a61.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_08a61.dir/feature_tests.cxx.o  -o cmTC_08a61.exe -Wl,--out-implib,libcmTC_08a61.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_965f8.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++1z -o CMakeFiles/cmTC_965f8.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_965f8.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_965f8.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_965f8.dir/feature_tests.cxx.o  -o cmTC_965f8.exe -Wl,--out-implib,libcmTC_965f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -446,14 +446,14 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_48e9b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48e9b.dir/build.make CMakeFiles/cmTC_48e9b.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_6013d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6013d.dir/build.make CMakeFiles/cmTC_6013d.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_48e9b.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++14 -o CMakeFiles/cmTC_48e9b.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_48e9b.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_48e9b.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_48e9b.dir/feature_tests.cxx.o  -o cmTC_48e9b.exe -Wl,--out-implib,libcmTC_48e9b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_6013d.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++14 -o CMakeFiles/cmTC_6013d.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6013d.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6013d.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_6013d.dir/feature_tests.cxx.o  -o cmTC_6013d.exe -Wl,--out-implib,libcmTC_6013d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -519,14 +519,14 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_3f5b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3f5b4.dir/build.make CMakeFiles/cmTC_3f5b4.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_db8cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db8cd.dir/build.make CMakeFiles/cmTC_db8cd.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3f5b4.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTC_3f5b4.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3f5b4.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3f5b4.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_3f5b4.dir/feature_tests.cxx.o  -o cmTC_3f5b4.exe -Wl,--out-implib,libcmTC_3f5b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_db8cd.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTC_db8cd.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db8cd.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_db8cd.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_db8cd.dir/feature_tests.cxx.o  -o cmTC_db8cd.exe -Wl,--out-implib,libcmTC_db8cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
@@ -592,14 +592,14 @@ make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-de
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_99162/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99162.dir/build.make CMakeFiles/cmTC_99162.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_c6df9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6df9.dir/build.make CMakeFiles/cmTC_c6df9.dir/build
 make[1]: Entering directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_99162.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTC_99162.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99162.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_99162.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_99162.dir/feature_tests.cxx.o  -o cmTC_99162.exe -Wl,--out-implib,libcmTC_99162.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_c6df9.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTC_c6df9.dir/feature_tests.cxx.o -c /cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6df9.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c6df9.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_c6df9.dir/feature_tests.cxx.o  -o cmTC_c6df9.exe -Wl,--out-implib,libcmTC_c6df9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/c/универ/GITHUB/LABA1/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
